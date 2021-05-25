@@ -4,14 +4,14 @@ require "English"
 require_relative "lib/jekyll/version"
 
 Gem::Specification.new do |s|
-  s.name          = "jekyll"
-  s.version       = Jekyll::VERSION
+  s.name          = "mariuseth-sys"
+  s.version       = "2"
   s.license       = "MIT"
-  s.authors       = ["Tom Preston-Werner", "Parker Moore", "Matt Rogers"]
-  s.email         = ["maintainers@jekyllrb.com"]
-  s.homepage      = "https://jekyllrb.com"
-  s.summary       = "A simple, blog aware, static site generator."
-  s.description   = "Jekyll is a simple, blog aware, static site generator."
+  s.authors       = ["Marius-sys"]
+  s.email         = ["peacelove.token@yandex.ru"]
+  s.homepage      = "https://mariuseth-sys.github.io"
+  s.summary       = "A simple, mission to demystify, the decentralized web."
+  s.description   = "mariuseth-sys we are a brand, dedicated to helping people understand this brave new world by delivering essential news underpinned by four values."
 
   all_files       = `git ls-files`.split($INPUT_RECORD_SEPARATOR)
   s.files         = all_files.grep(%r!^(exe|lib|rubocop)/|^.rubocop.yml$!)
